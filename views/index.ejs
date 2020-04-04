@@ -1,0 +1,41 @@
+<%- include('partials/header') -%>
+
+        <main>
+            
+            <figure id="logos">
+                <img src="img/logos.jpg" class="maindesk" alt="Main desktop operating systems" />
+            </figure>
+            
+            <figure id="ways">
+                <img src="img/SystemWays.png" class="ways1">
+            </figure>
+            
+            <div id="overviewText">
+                <strong>What is the operating system?</strong> <br />
+                <p>The operating system is the most important software that runs on a computer, this allows us to interact with the computer.</p>
+                
+                <p>The operating system is responsible for managing computer resources such as software and hardware. The most popular operating systems for computers are <q>Windows Mac Os and Linux.</q></p>
+                
+                <p>The current operating systems consist of a graphic interface, desktop environment or window manager that gives us a visual 
+                representation of the processes that are running. In addition, the graphic representation of the first operating systems was through the command line.</p>
+                
+                <p><a class= "linkers" href="https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/" target="_blank">Click here for more information</a></p>
+                <br /><br />
+                
+            </div>
+            <div class="dir">  
+                <!--Fake name generator-->
+                <p>Welcome to my page</p>
+            
+                <%- faker_name -%>
+           </div>
+           <br><br>
+           <div class="dir">
+               <!--knocknock generator-->
+               <p>This is a Knocknock Joke for you:</p>
+    
+               <%- joke -%>
+           </div>
+        </main>
+        
+<%- include('partials/footer') -%>

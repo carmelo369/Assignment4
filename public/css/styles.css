@@ -1,0 +1,127 @@
+/*Body style*/
+body{
+    background-color: black;
+    color:white;
+}
+
+/*Navigation*/
+header, main, nav, footer{
+    text-align: center;
+}
+nav a { /*links within "nav" container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline*/
+    color: white;          /* by default, links are blue*/
+}
+nav a:hover{ /*pseudo class*/
+    border-bottom: 2px red solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect */
+}
+.current{ /*current page's menu item stands out*/
+    border-bottom: 2px red solid;
+}
+
+/*Home page*/
+#logos, #overviewText, #ways{
+    float:left;
+    text-align:left;
+    font-size: 20px;
+}
+.ways1{
+    height: 300px;
+    width: 360px;
+}
+.maindesk{
+    border-radius: 20px;
+}
+
+/*Windows page*/
+#win, #winmenu, #windowsText{
+    float: left;
+    text-align: left;
+}
+
+.wind1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+}
+.winmenu1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/*Class font size paragraphs*/
+.textList{
+    font-size: 20px;
+}
+
+
+/*MacOS page*/
+#mac, #macmenu, #macText{
+    float: left;
+    text-align: left;
+}
+
+.mac1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+}
+.macmenu1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: red;
+}
+
+/*Linux page*/
+#linx, #ubuntu, #linxText{
+    float: left;
+    text-align: left;
+}
+
+.linux1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 20px;
+}
+.ubuntu1{
+    height: 300px;
+    width: 460px;
+    border-style: solid;
+    border-color: green;
+}
+
+/*Google Font Style*/
+h1{
+    font-family: 'Noto Sans', sans-serif;;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+/*Assign color to linkers*/
+.linkers {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.dir{
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+}

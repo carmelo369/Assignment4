@@ -18,7 +18,7 @@
   "homepage": "https://github.com/carmelo369/Assignment4#readme",
   "dependencies": {
     "ejs": "^3.0.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "faker": "^4.1.0",
     "knock-knock-jokes": "^1.7.0"
   }
